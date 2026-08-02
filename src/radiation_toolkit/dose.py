@@ -1,4 +1,4 @@
-def calculate_dose(Activity:int, time:int, distance):
+def calculate_dose(Activity:float, time:int, distance:int) -> float:
     """
     Calculate the radiation dose based on activity, time, and distance.
 
